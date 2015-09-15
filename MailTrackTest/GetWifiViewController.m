@@ -11,8 +11,8 @@
 
 #define SSID_KEY @"SSID"
 #define EMBED_HTML @"<html> <head></head> <body> <script> function getWifiSSID(){ return \"%@\"; } document.write(getWifiSSID()); </script> </body> </html>"
-#define NO_SSID @"Not active Wi-Fi detected"
-#define SSID_FORMAT_TEXT @"Active Wi-Fi: %@"
+#define NO_SSID @"No active Wi-Fi detected"
+#define SSID_FORMAT_TEXT @"Active Wi-Fi: '%@'"
 
 @interface GetWifiViewController ()
 
