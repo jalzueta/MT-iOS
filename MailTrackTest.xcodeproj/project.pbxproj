@@ -12,6 +12,8 @@
 		59ACEC8B1BA80BCB003934AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59ACEC8A1BA80BCB003934AB /* Images.xcassets */; };
 		59ACEC8E1BA80BCB003934AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59ACEC8C1BA80BCB003934AB /* LaunchScreen.xib */; };
 		59ACEC9A1BA80BCB003934AB /* MailTrackTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ACEC991BA80BCB003934AB /* MailTrackTestTests.m */; };
+		59ACECA71BA80D43003934AB /* GetWifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ACECA51BA80D43003934AB /* GetWifiViewController.m */; };
+		59ACECA81BA80D43003934AB /* GetWifiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59ACECA61BA80D43003934AB /* GetWifiViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		59ACEC931BA80BCB003934AB /* MailTrackTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailTrackTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59ACEC981BA80BCB003934AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59ACEC991BA80BCB003934AB /* MailTrackTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailTrackTestTests.m; sourceTree = "<group>"; };
+		59ACECA41BA80D43003934AB /* GetWifiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetWifiViewController.h; sourceTree = "<group>"; };
+		59ACECA51BA80D43003934AB /* GetWifiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetWifiViewController.m; sourceTree = "<group>"; };
+		59ACECA61BA80D43003934AB /* GetWifiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetWifiViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,7 @@
 			children = (
 				59ACEC871BA80BCB003934AB /* AppDelegate.h */,
 				59ACEC881BA80BCB003934AB /* AppDelegate.m */,
+				59ACECA31BA80D16003934AB /* Controllers */,
 				59ACEC8A1BA80BCB003934AB /* Images.xcassets */,
 				59ACEC8C1BA80BCB003934AB /* LaunchScreen.xib */,
 				59ACEC831BA80BCB003934AB /* Supporting Files */,
@@ -109,6 +115,16 @@
 				59ACEC981BA80BCB003934AB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59ACECA31BA80D16003934AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				59ACECA41BA80D43003934AB /* GetWifiViewController.h */,
+				59ACECA51BA80D43003934AB /* GetWifiViewController.m */,
+				59ACECA61BA80D43003934AB /* GetWifiViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +209,7 @@
 			files = (
 				59ACEC8E1BA80BCB003934AB /* LaunchScreen.xib in Resources */,
 				59ACEC8B1BA80BCB003934AB /* Images.xcassets in Resources */,
+				59ACECA81BA80D43003934AB /* GetWifiViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +229,7 @@
 			files = (
 				59ACEC891BA80BCB003934AB /* AppDelegate.m in Sources */,
 				59ACEC861BA80BCB003934AB /* main.m in Sources */,
+				59ACECA71BA80D43003934AB /* GetWifiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
